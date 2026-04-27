@@ -109,7 +109,7 @@ real-time fair value derived from the filtered orderbook. We filtered out
 quotes smaller than 15 lots before computing the mid:
 
 $$
-\text{fair}_t = \frac{\min\{p \in \text{asks}_t : v_p \geq 15\} + \max\{p \in \text{bids}_t : v_p \geq 15\}}{2}
+\text{fair}_t = \frac{\min\left\{p \in \text{asks}_t : v_p \geq 15\right\} + \max\left\{p \in \text{bids}_t : v_p \geq 15\right\}}{2}
 $$
 
 We also added an *adverse selection guard*: orders larger than 20 lots 
