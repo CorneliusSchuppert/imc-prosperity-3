@@ -30,7 +30,7 @@ making in stable assets to ETF-style basket arbitrage and options pricing.
 
 ## Our Background and Approach
 
-We are a three-person team from the Pythoneers Quant Finance Society at 
+We are a team from the Pythoneers Quant Finance Society at 
 Católica Lisbon. We approached the competition with a hypothesis-driven 
 workflow: each iteration of our trading algorithm was preceded by a written 
 hypothesis explaining why a specific change should improve PnL. Failed 
